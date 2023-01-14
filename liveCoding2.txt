@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class Prueba {
+	class MangosNaranjas{
+		private int mangos;
+		private int naranjas;
+		
+		public void imprimir() {
+			
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner (System.in);
+		
+	
+		int maxcaja= 10;
+		int naranjas = 0;
+		int mangos = 0;
+		
+		
+		
+		
+		System.out.println("Número de naranjas: ");
+		 naranjas =  scanner.nextInt();		 
+		
+		
+		 System.out.println("Número de mangos: ");
+		 mangos =  scanner.nextInt();		 
+		 
+		
+	}
+
+	
+
+}
